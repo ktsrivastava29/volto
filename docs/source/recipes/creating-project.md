@@ -10,35 +10,36 @@ html_meta:
 
 For using Volto for a project (i.e. use Volto as a library), You should use Volto's project generator `@plone/generator-volto`. It's a boilerplate generator based in Yeoman that will provide you with the basic files and folder structure to bootstrap a Volto site. In addition to bootstrapping standalone Volto projects, it can also bootstrap Volto addons.
 
-1. Open a terminal and execute:
-```shell
-npm install -g yo @plone/generator-volto
-yo @plone/volto
-```
+1.  Open a terminal and execute:
 
-2. Answer to the prompted questions and provide the name of the new app (folder) to be created. For the sake of this documentation, provide `myvoltoproject` as project name then.
+    ```shell
+    npm install -g yo @plone/generator-volto
+    yo @plone/volto
+    ```
 
-````{note}
-You can run the generator with parameters to tailor your requirements.
+2.  Answer to the prompted questions and provide the name of the new app (folder) to be created. For the sake of this documentation, provide `myvoltoproject` as project name then.
 
-```shell
-yo @plone/volto --help
-```
-or take a look at the [README](https://github.com/plone/volto/blob/master/packages/generator-volto/README.md) for more information.
-````
+    ````{note}
+    You can run the generator with parameters to tailor your requirements.
 
-3. Change directory to the newly created folder `myvoltoapp` (or the one you've chosen).
+    ```shell
+    yo @plone/volto --help
+    ```
 
-```shell
-cd myvoltoapp
-```
+    or take a look at the [README](https://github.com/plone/volto/blob/master/packages/generator-volto/README.md) for more information.
+    ````
+    
+3.  Change directory to the newly created folder `myvoltoapp` (or the one you've chosen).
 
-4. The project is ready to be started, `@plone/generator-volto` already has run the
-   dependencies installations for you.
+    ```shell
+    cd myvoltoapp
+    ```
 
-```
-$ yarn start
-```
+4.  The project is ready to be started, `@plone/generator-volto` already has run the dependencies installations for you.
 
-will start the development server, compiling and leaving the app ready at:
-http://localhost:3000
+    ```shell
+    yarn start
+    ```
+
+    will start the development server, compiling and leaving the app ready at:
+    http://localhost:3000
